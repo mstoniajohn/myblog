@@ -3,7 +3,7 @@ import sanityClient from '../client';
 import { Link } from 'react-router-dom';
 
 const Post = () => {
-	const [posts, setPosts] = useState([]);
+	const [posts, setPosts] = useState(null);
 	console.log(posts);
 	useEffect(() => {
 		sanityClient
