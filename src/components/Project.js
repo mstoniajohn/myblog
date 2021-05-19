@@ -39,7 +39,7 @@ const Project = () => {
 									alt={project.mainImage.alt}
 								/> */}
 								<h3 className="text-gray-800 text-2xl font-bold mb-2 hover:text-pink-400">
-									<a href={project.link} target="_blank">
+									<a href={project.link} target="_blank" rel="noreferrer">
 										{project.title}
 									</a>
 								</h3>
@@ -63,6 +63,7 @@ const Project = () => {
 										href={project.link}
 										target="_blank"
 										className="text-pink-500 font-bold hover:text-pink-300 hover:underline"
+										rel="noreferrer"
 									>
 										Go to Project{' '}
 										<span role="img" aria-label="right pointer">
